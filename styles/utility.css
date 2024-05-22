@@ -42,12 +42,18 @@ p {
   content: "";
   position: absolute;
   top: -5px;
+  bottom: -5px;
   left: -15px;
   right: -15px;
-  bottom: -5px;
   border-top: solid 1px var(--clr-graphite);
   border-bottom: solid 1px var(--clr-graphite);
   cursor: pointer;
+  transition: top 0.3s ease, bottom 0.3s ease;
+}
+
+.active-page:hover:after {
+  top: -8px;
+  bottom: -8px;
 }
 
 .arrow-right-btn,

@@ -6,6 +6,12 @@
   font-size: var(--size-3xl);
   color: var(--clr-gray-light1);
   font-weight: 900;
+  user-select: none;
+  transition: color 0.4s ease;
+}
+
+.num-list:hover {
+  color: rgb(196, 212, 228);
 }
 
 .first-list-el,
