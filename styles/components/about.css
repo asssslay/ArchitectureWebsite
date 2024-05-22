@@ -1,0 +1,33 @@
+.about-container {
+  background-color: var(--clr-light-back);
+  padding: 30px 70px 30px 100px;
+  height: 435px;
+  display: flex;
+}
+
+.about-photos {
+  display: grid;
+  grid-template-columns: repeat(2, 270px);
+  grid-template-rows: repeat(15, 30px);
+  column-gap: 30px;
+  margin-right: 30px;
+}
+
+.about-photo3 {
+  grid-row-start: 11;
+}
+
+.about-description {
+  margin-top: 20px;
+  max-width: 45ch;
+}
+
+.about-btn-wrapper {
+  margin-top: 45px;
+  width: 222px;
+  background-color: var(--clr-light);
+}
+
+.about-btn {
+  margin: 30px 12px 29px 35px;
+}

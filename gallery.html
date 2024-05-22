@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>Photo Gallery</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header container">
+        <img class="logo" src="/public/logo.svg" alt="logo">
+        <nav>
+            <ul class="header-menu">
+                <li class="header-link">
+                    <a href="index.html">Main</a>
+                </li>
+                <li class="header-link active-page">
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li class="header-link">
+                    <a href="#">Projects</a>
+                </li>
+                <li class="header-link">
+                    <a href="#">Certification</a>
+                </li>
+                <li class="header-link">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- GALLERY SECTION-->
+        <section class="gallery container">
+            <h2 class="gallery-title">Photo<br><strong>Gallery</strong></h2>
+            <div class="gallery-photos">
+                <img src="/public/gallery/photo1.jpeg" alt="Image">
+                <img src="/public/gallery/photo2.jpeg" alt="Image">
+                <img src="/public/gallery/photo3.jpeg" alt="Image">
+                <img src="/public/gallery/photo4.jpeg" alt="Image">
+                <img src="/public/gallery/photo5.jpeg" alt="Image">
+                <img src="/public/gallery/photo6.jpeg" alt="Image">
+                <img src="/public/gallery/photo7.jpeg" alt="Image">
+                <img src="/public/gallery/photo8.jpeg" alt="Image">
+                <img src="/public/gallery/photo9.jpeg" alt="Image">
+                <img src="/public/gallery/photo10.jpeg" alt="Image">
+            </div>
+
+            <div class="gallery-slider">
+                <div class="counter">
+                    <div class="current-project-wrap">
+                        <span class="current-gallery-counter">0</span>
+                        <span class="current-gallery-counter">1</span>
+                    </div>
+                    <span class="border-counter"></span>
+                    <span class="project-counter">05</span>
+                </div>
+                <div class="gallery-btn-slider">
+                    <button class="arrow-left-btn">
+                        <img src="/public/arrow-left.svg" alt="arrow button">
+                    </button>
+                    <button class="arrow-right-btn arrow-active-btn">
+                        <img src="/public/arrow-right.svg" alt="arrow button">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <footer class="footer section">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="/public/logo-light.svg" alt="Logo">
+                </div>
+                <div class="information-container">
+                    <div class="">
+                        <h3 class="footer-title">Information</h3>
+                    </div>
+
+                    <div class="page">
+                        <a href="index.html">Main</a>
+                        <a href="gallery.html">Gallery</a>
+                        <a href="#">Projects</a>
+                        <a href="#">Certifications</a>
+                        <a href="#">Contacts</a>
+                    </div>
+
+                </div>
+
+                <div class="contacts-container">
+                    <h3 class="footer-title">Contacts</h3>
+                    <div class="address">
+                        <img class="contact-icon" src="/public/map_icon.svg" alt="Map icon">
+                        <a href="https://maps.app.goo.gl/JvSjJqxTfXS1pSZp6">1234 Sample Street <br>Austin Texas
+                            78704</a>
+                    </div>
+                    <div class="phone-num">
+                        <img class="contact-icon" src="/public/phone_icon.svg" alt="Phone icon">
+                        <a href="tel:512.333.2222">512.333.2222</a>
+                    </div>
+                    <div class="email">
+                        <img class="contact-icon" src="/public/email_icon.svg" alt="Email icon">
+                        <a href="mailto:sampleemail@gmail.com">sampleemail@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="socials-container">
+                    <h3 class="footer-title">Social Media</h3>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="/public/facebook-logo.svg" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="public/x-logo.svg" alt="Twitter">
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <img src="/public/linked-logo.svg" alt="Linked In">
+                    </a>
+                    <a href="https://www.pinterest.com/" target="_blank">
+                        <img src="/public/pinterest-logo.svg" alt="Pinterest">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-rights">
+                <h4>© 2024 All Rights Reserved</h4>
+            </div>
+        </footer>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+
+</body>
+
+</html>

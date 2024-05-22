@@ -1,0 +1,29 @@
+.features-list {
+  display: flex;
+}
+
+.num-list {
+  font-size: var(--size-3xl);
+  color: var(--clr-gray-light1);
+  font-weight: 900;
+}
+
+.first-list-el,
+.second-list-el {
+  display: flex;
+  align-items: center;
+}
+
+.first-list-el {
+  margin-right: 187px;
+}
+
+.first-list-description {
+  max-width: 32ch;
+  margin-left: 5px;
+}
+
+.second-list-description {
+  max-width: 32ch;
+  margin-left: 30px;
+}

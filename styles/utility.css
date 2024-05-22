@@ -1,0 +1,139 @@
+.container {
+  max-width: 1536px;
+  margin-inline: auto;
+  padding-inline: 0.5rem;
+  /* border: solid red 1px; */
+}
+
+h2 {
+  font-size: var(--size-2xl);
+  color: var(--clr-gray-light3);
+  font-weight: 300;
+}
+
+h3 {
+  font-size: var(--size-base);
+  font-weight: 700;
+}
+
+h4 {
+  font-size: var(--size-xs);
+  font-weight: 400;
+  color: #c8c8c880;
+  opacity: 0.5;
+}
+
+strong {
+  font-weight: 700;
+  color: var(--clr-graphite);
+}
+
+p {
+  font-size: var(--size-base);
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.active-page {
+  position: relative;
+}
+
+.active-page:after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -15px;
+  right: -15px;
+  bottom: -5px;
+  border-top: solid 1px var(--clr-graphite);
+  border-bottom: solid 1px var(--clr-graphite);
+  cursor: pointer;
+}
+
+.arrow-right-btn,
+.arrow-left-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 53px;
+  height: 53px;
+  border: 1px solid var(--clr-gray-light1);
+  background-color: var(--clr-light);
+}
+
+.arrow-left-btn {
+  margin-right: 22px;
+}
+
+.arrow-active-btn {
+  background-color: #f9f9f9;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn {
+  font-size: var(--size-xs);
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.btn-wrapper:hover .arrow {
+  transform: translateX(5px);
+}
+
+.counter {
+  display: flex;
+  gap: 12px;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+}

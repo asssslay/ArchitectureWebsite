@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 1.75rem 0;
+}
+
+.header-menu {
+  display: flex;
+  gap: 60px;
+}
+
+.header-link {
+  color: var(--clr-graphite);
+  font-size: var(--size-xs);
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  display: block;
+}
+
+
