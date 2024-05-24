@@ -16,7 +16,8 @@
 .information-container {
   display: flex;
   flex-direction: column;
-  padding-right: 168px;
+  /* padding-right: 168px; */
+  padding-right: 200px;
 }
 
 .footer-pages {
@@ -35,7 +36,8 @@
 } */
 
 .contacts-container {
-  padding-right: 216px;
+  /* padding-right: 216px; */
+  padding-right: 200px;
   margin-bottom: 3.75rem;
 }
 
