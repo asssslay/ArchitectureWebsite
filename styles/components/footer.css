@@ -27,7 +27,7 @@
 
 .footer-pages a {
   font-size: var(--size-sm);
-font-weight: 500;
+  font-weight: 500;
 }
 
 /* .information-container a {
@@ -37,6 +37,10 @@ font-weight: 500;
 .contacts-container {
   padding-right: 216px;
   margin-bottom: 3.75rem;
+}
+
+.contacts-container a {
+  font-size: var(--size-sm);
 }
 
 .footer-title {

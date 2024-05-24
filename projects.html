@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
-    <title>Photo Gallery</title>
+    <title>Projects</title>
 </head>
 
 <body>
@@ -17,13 +17,13 @@
         <img class="logo" src="/public/logo.svg" alt="logo">
         <nav>
             <ul class="header-menu">
-                <li class="header-link">
+                <li class="header-link ">
                     <a href="index.html">Main</a>
                 </li>
-                <li class="header-link active-page">
+                <li class="header-link">
                     <a href="gallery.html">Gallery</a>
                 </li>
-                <li class="header-link">
+                <li class="header-link active-page">
                     <a href="projects.html">Projects</a>
                 </li>
                 <li class="header-link">
@@ -37,20 +37,45 @@
     </header>
 
     <main>
-        <!-- GALLERY SECTION-->
-        <section class="gallery container">
-            <h2 class="title">Photo<br><strong>Gallery</strong></h2>
-            <div class="gallery-photos">
-                <img src="/public/gallery/photo1.jpg" alt="Image">
-                <img src="/public/gallery/photo2.jpg" alt="Image">
-                <img src="/public/gallery/photo3.jpg" alt="Image">
-                <img src="/public/gallery/photo4.jpg" alt="Image">
-                <img src="/public/gallery/photo5.jpg" alt="Image">
-                <img src="/public/gallery/photo6.jpg" alt="Image">
-                <img src="/public/gallery/photo7.jpg" alt="Image">
-                <img src="/public/gallery/photo8.jpg" alt="Image">
-                <img src="/public/gallery/photo9.jpg" alt="Image">
-                <img src="/public/gallery/photo10.jpg" alt="Image">
+        <section class="projects container">
+            <h2 class="title">Our<br><strong>Projects</strong></h2>
+            <div class="projects-wrap">
+                <div class="project">
+                    <img class="i1" src="/public/gallery/photo1.jpg" alt="photo">
+                    <h3>Sample Project</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled it to make a type specimen book.
+                    </p>
+                    <button>View More</button>
+                </div>
+                <div class="project">
+                    <img src="/public/gallery/photo1.jpg" alt="photo">
+                    <h3>Sample Project</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled it to make a type specimen book.
+                    </p>
+                    <button>View More</button>
+                </div>
+                <div class="project">
+                    <img src="/public/gallery/photo1.jpg" alt="photo">
+                    <h3>Sample Project</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled it to make a type specimen book.
+                    </p>
+                    <button>View More</button>
+                </div>
             </div>
 
             <!-- slider -->
@@ -133,7 +158,9 @@
             </div>
         </footer>
     </main>
+
     <script type="module" src="/src/main.js"></script>
+
 </body>
 
 </html>

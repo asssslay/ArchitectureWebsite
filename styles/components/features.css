@@ -3,7 +3,7 @@
 }
 
 .num-list {
-  font-size: var(--size-3xl);
+  font-size: var(--size-4xl);
   color: var(--clr-gray-light1);
   font-weight: 900;
   user-select: none;

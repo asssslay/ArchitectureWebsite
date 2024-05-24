@@ -1,0 +1,15 @@
+.project {
+  border-top: 1px solid var(--clr-gray-light1);
+  margin-bottom: 72px;
+  padding-top: 30px;
+}
+
+.projects-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+}
