@@ -1,15 +1,38 @@
-.project {
-  border-top: 1px solid var(--clr-gray-light1);
-  margin-bottom: 72px;
-  padding-top: 30px;
-}
-
 .projects-wrap {
   display: flex;
   flex-direction: column;
+  border-top: 1px solid var(--clr-gray-light1);
+  margin-bottom: 72px;
+  padding-top: 30px;
+  gap: 3.125rem;
 }
 
 .project {
   display: flex;
   flex-direction: row;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-light-back);
+  padding: 60px 30px 30px;
+}
+
+.project-description {
+  max-width: 45ch;
+}
+
+.project-photo {
+  max-width: 670px;
+}
+
+.btn-view-wrapper {
+  margin-top: 4rem;
+  width: 222px;
+  background-color: var(--clr-light);
+}
+
+.btn-view {
+  margin: 30px 12px 29px 35px;
 }

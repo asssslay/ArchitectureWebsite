@@ -8,6 +8,8 @@ import "../styles/components/our-projects.css";
 import "../styles/components/contact.css";
 import "../styles/components/footer.css";
 import "../styles/components/gallery/gallery.css";
+import "../styles/components/projects/projects.css";
+import "../styles/components/projects/project1.css";
 import "../styles/utility.css";
 
 // import btnSlider from "./btn-slider";
