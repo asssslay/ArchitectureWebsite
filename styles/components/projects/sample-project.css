@@ -1,0 +1,35 @@
+.sample-project {
+  display: flex;
+  flex-direction: column;
+}
+.sample-photo1 {
+  max-width: 1280px;
+  margin-bottom: 2.75rem;
+}
+
+.sample-photo-wrap {
+  display: flex;
+  gap: 30;
+  margin-bottom: 2.75rem;
+}
+
+.sample-photo-wrap img {
+  max-width: 419px;
+}
+
+.sample-description {
+  max-width: 60ch;
+}
+
+.sample-photo3 {
+  max-width: 1280px;
+}
+
+.sample-description2 {
+  position: absolute;
+  margin: 73.375rem 1.875rem 0 0;
+  max-width: 50ch;
+  color: var(--clr-light);
+  align-self: flex-end;
+  text-align: right;
+}

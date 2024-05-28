@@ -10,6 +10,7 @@ import "../styles/components/footer.css";
 import "../styles/components/gallery/gallery.css";
 import "../styles/components/projects/projects.css";
 import "../styles/components/projects/sample-project.css";
+import "../styles/components/certifications/certifications.css";
 import "../styles/utility.css";
 
 // import btnSlider from "./btn-slider";
