@@ -1,4 +1,26 @@
 .certifications-wrap {
   display: flex;
-  gap: 30px;
+  gap: 40px;
+}
+
+.certificate-img {
+  max-width: 800px;
+}
+
+.certificate-title {
+  display: flex;
+  margin-top: 60px;
+}
+
+.certificate-mark {
+  width: 44;
+  height: 44px;
+}
+
+.certificate-description {
+  margin: 0 0 3.75rem 2.75rem;
+}
+
+.certificate-content .slider {
+  margin-left: 2.75rem;
 }
