@@ -9,6 +9,7 @@
     "parcel": "latest"
   },
   "dependencies": {
+    "@swup/fragment-plugin": "^1.1.0",
     "swup": "^4.6.1"
   }
 }
