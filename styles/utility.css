@@ -30,6 +30,12 @@ h5 {
   opacity: 0.5;
 }
 
+h6 {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--clr-graphite);
+}
+
 strong {
   font-weight: 700;
   color: var(--clr-graphite);
@@ -72,6 +78,23 @@ p {
   display: flex;
   align-items: baseline;
   gap: 28px;
+}
+
+.current-project-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.border-counter {
+  margin: 0 30px 0 36px;
+  height: 44px;
+  border-right: 1px solid var(--clr-gray-light2);
+  transform: rotate(45deg);
+}
+
+.project-counter {
+  color: var(--clr-gray-light3);
+  font-size: var(--size-xl);
 }
 
 .arrow-right-btn,

@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="icon" href="/public/favicon.svg" type="image/x-icon">
-    <title>Photo Gallery</title>
+    <title>Contact</title>
 </head>
 
 <body>
@@ -19,19 +19,19 @@
             <img class="logo" src="/public/logo.svg" alt="logo">
             <nav>
                 <ul class="header-menu">
-                    <li class="header-link">
+                    <li class="header-link ">
                         <a href="index.html">Main</a>
                     </li>
-                    <li class="header-link active-page">
+                    <li class="header-link">
                         <a href="gallery.html">Gallery</a>
                     </li>
-                    <li class="header-link">
+                    <li class="header-link ">
                         <a href="projects.html">Projects</a>
                     </li>
                     <li class="header-link">
                         <a href="certifications.html">Certification</a>
                     </li>
-                    <li class="header-link">
+                    <li class="header-link active-page">
                         <a href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -39,40 +39,18 @@
         </header>
 
         <main>
-            <!-- GALLERY SECTION-->
-            <section class="gallery container">
-                <h2 class="title">Photo<br><strong>Gallery</strong></h2>
-                <div class="gallery-photos">
-                    <img src="/public/gallery/photo1.jpg" alt="Image">
-                    <img src="/public/gallery/photo2.jpg" alt="Image">
-                    <img src="/public/gallery/photo3.jpg" alt="Image">
-                    <img src="/public/gallery/photo4.jpg" alt="Image">
-                    <img src="/public/gallery/photo5.jpg" alt="Image">
-                    <img src="/public/gallery/photo6.jpg" alt="Image">
-                    <img src="/public/gallery/photo7.jpg" alt="Image">
-                    <img src="/public/gallery/photo8.jpg" alt="Image">
-                    <img src="/public/gallery/photo9.jpg" alt="Image">
-                    <img src="/public/gallery/photo10.jpg" alt="Image">
-                </div>
+            <section class="contact container">
+                <h2 class="title">Contact<br><strong>Information</strong></h2>
 
-                <!-- slider -->
-                <div class="slider">
-                    <div class="counter">
-                        <div class="current-project-wrap">
-                            <span class="current-gallery-counter">0</span>
-                            <span class="current-gallery-counter">1</span>
-                        </div>
-                        <span class="border-counter"></span>
-                        <span class="project-counter">05</span>
-                    </div>
-                    <div class="gallery-btn-slider">
-                        <button class="arrow-left-btn">
-                            <img src="/public/arrow-left.svg" alt="arrow button">
-                        </button>
-                        <button class="arrow-right-btn arrow-active-btn">
-                            <img src="/public/arrow-right.svg" alt="arrow button">
-                        </button>
-                    </div>
+                <h6 class="contact-address"><strong>Digital Project</strong><br>1234 Sample Street Austin Texas 76401
+                </h6>
+
+                <h6 class="contact-geo"><strong>512.333.2222</strong></h6>
+
+                <p>sampleemail@gmail.com</p>
+
+                <div class="email-btn-wrapper btn-wrapper">
+                    <button type="submit" class="email-btn btn">Contact US</button>
                 </div>
             </section>
 
@@ -137,7 +115,7 @@
         </main>
     </div>
 
-    <script type="module" src="/src/gallery.js"></script>
+    <script type="module" src="/src/contact.js"></script>
 </body>
 
 </html>
