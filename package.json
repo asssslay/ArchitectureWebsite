@@ -3,7 +3,8 @@
   "source": "index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "preview": "parcel index.html"
   },
   "devDependencies": {
     "parcel": "latest"
