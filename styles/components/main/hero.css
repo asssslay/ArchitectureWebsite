@@ -21,7 +21,8 @@
   height: 0px;
 }
 
-.current-project-counter {
+.current-project-counter,
+.current-project-counter-0 {
   color: var(--clr-gray-light3);
   font-size: var(--size-xl);
 }

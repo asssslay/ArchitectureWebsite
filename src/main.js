@@ -15,6 +15,10 @@ import "../styles/components/contact/contact.css";
 import "../styles/utility.css";
 
 import { swup } from "./animation";
+
+import slider from "./slider";
+slider();
+
 // import btnSlider from "./btn-slider";
 
 // btnSlider();
