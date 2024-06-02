@@ -1,8 +1,33 @@
 .contact {
   display: flex;
+  flex-direction: row;
+  gap: 180px;
+  align-items: center;
+}
+
+.contact-content {
+  display: flex;
   flex-direction: column;
 }
 
 .contact-geo {
   margin: 2.75rem 0 2.75rem 0;
+}
+
+.contact-btn-wrapper {
+  background-color: var(--clr-graphite);
+  width: 222px;
+  margin-top: 2rem;
+}
+
+.contact-btn {
+  margin: 30px auto 29px;
+  color: var(--clr-light);
+}
+
+.map {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
